@@ -1,10 +1,22 @@
-# COMP30027 Project 2 - How Long Does It Take To Cook This? 
- 
+# How Long Does It Take To Cook This? 
+
+*Project II of COMP30027 (Machine Learning) - The University of Melbourne*
+
 Author: 
 * Tuan Khoi Nguyen - `1025294`
 * Hai Hong Tran - `1012919`
 
-Submission zip file of this project includes the following files:
+## About
+This repo includes all of processed files that were used in the Project. The main aim of the Project is to successfully predict cooking durations for culinary recipes from *food.com*. Our implementation strategy has helped us to reach the top position on the cohort's [Kaggle Competition](https://www.kaggle.com/c/comp30027-2021/leaderboard), which consists of 400 teams from the whole course, leaving the 2nd (*) highest team 1% behind (70 correct guesses).
+
+(*): It is actually the 3rd place on the Kaggle leaderboard, since our 2 accounts both ended up on top.
+
+## Files
+Submission file of this project includes the following files:
+
+### `Report.pdf`
+
+The report file for this project, consisting of analysis and method description.
 
 ### `input` folder
 
@@ -12,11 +24,7 @@ The folder is located inside `COMP30027_2021_Project2_datasets` folder. The fold
 
 ### `output` folder
 
-The folder includes all `.csv` output files which have been submitted to Kaggle for testing:
-* K Nearest Neighbors
-* Original Stacking
-* Feature Engnieered Stacking
-* Data combination stacking, for different top percentile selections ranging from 10% to 100%.
+The folder includes all `.csv` output files which have been submitted to Kaggle for testing.
 
 ### `COMP30027-Project-2.ipynb`
 
